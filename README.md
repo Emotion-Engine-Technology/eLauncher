@@ -21,19 +21,19 @@
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 To run **eLauncher** properly, you must have the following installed:
 
 - [.NET 8.0 Runtime (x86)](https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/runtime-desktop-8.0.18-windows-x86-installer?cid=getdotnetcore)
 - [Visual C++ Redistributable 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
-> ⚙️ **These components are required.**  
+> **These components are required.**  
 > Make sure to install both before running the launcher to avoid errors.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Download the latest version of **eLauncher** from [Releases](https://github.com/seu-usuario/eLauncher/releases) or from our [website](https://elauncher.site).
 2. Extract the files to a folder of your choice.
@@ -42,13 +42,13 @@ To run **eLauncher** properly, you must have the following installed:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 The repository will soon be open for public contributions.  
 You’ll be able to suggest improvements, report issues, or submit pull requests directly.
 
 ---
 
-## 📧 Support
+## Support
 
 If you have any questions or problems, feel free to contact us or open an *issue* here on GitHub.
