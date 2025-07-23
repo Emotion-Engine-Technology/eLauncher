@@ -42,8 +42,10 @@ To run **eLauncher** properly, you must have the following installed:
 
 ---
 ## We use open-source projects in our development. Get to know them:
+
 [samp-injector.dll](https://github.com/spc-samp/samp-injector) by SPC/Calasans
 [SAMPQuery](https://github.com/justmavi/sampquery) by justmavi
+
 ---
 ## Contributing
 
