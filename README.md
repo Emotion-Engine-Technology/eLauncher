@@ -1,115 +1,109 @@
+# Emotion Launcher
 
-# Emotion Launcher - Launcher for SA-MP and OpenMP
+O **Emotion Launcher (eLauncher)** é um Launcher moderno e dedicado para **San Andreas Multiplayer (SA-MP)** e **Open Multiplayer (open.mp)**. Desenvolvido com foco em estabilidade, usabilidade e funcionalidades avançadas, o **eLauncher** oferece uma experiência fluida para conectar-se a servidores multiplayer, gerenciar favoritos, configurar a instalação do GTA San Andreas e manter o Launcher atualizado de forma automática e eficiente.
 
----
+## Idiomas
 
-## Overview
+- Deutsch: [README](translations/Deutsch/README.md)
+- English: [README](translations/English/README.md)
+- Español: [README](translations/Espanol/README.md)
+- Français: [README](translations/Francais/README.md)
+- Italiano: [README](translations/Italiano/README.md)
+- Polski: [README](translations/Polski/README.md)
+- Русский: [README](translations/Русский/README.md)
+- Svenska: [README](translations/Svenska/README.md)
+- Türkçe: [README](translations/Turkce/README.md)
 
-**Emotion Launcher (eLauncher)** is a dedicated, modern launcher designed for **San Andreas Multiplayer (SA-MP)** and **Open Multiplayer (OpenMP)**. It aims to provide a stable, user-friendly, and feature-rich experience for connecting to multiplayer servers, managing favorites, configuring your GTA San Andreas installation, and keeping the launcher updated seamlessly.
+## Índice
 
-This repository contains the source code, binaries, and all resources related to the launcher.
+- [Emotion Launcher](#emotion-launcher)
+  - [Idiomas](#idiomas)
+  - [Índice](#índice)
+  - [Funcionalidades](#funcionalidades)
+  - [Requisitos](#requisitos)
+  - [Instalação e Uso](#instalação-e-uso)
+  - [Configuração](#configuração)
+  - [Como Conectar-se a um Servidor](#como-conectar-se-a-um-servidor)
+  - [Sistema de Atualização](#sistema-de-atualização)
+  - [Exemplos de Código](#exemplos-de-código)
+    - [Lógica de Conexão a Servidores (Simplificada)](#lógica-de-conexão-a-servidores-simplificada)
+    - [Exemplo de Gerenciador de Configuração](#exemplo-de-gerenciador-de-configuração)
+    - [Trecho do Sistema de Atualização](#trecho-do-sistema-de-atualização)
+  - [Bibliotecas e Dependências de Terceiros](#bibliotecas-e-dependências-de-terceiros)
+  - [Contribuição](#contribuição)
+  - [Suporte](#suporte)
+  - [Licença](#licença)
+  - [Thanks!](#thanks)
 
----
+## Funcionalidades
 
-## Table of Contents
+- **Navegação Multi-Fonte:** Explore servidores favoritos salvos localmente, servidores online via API do Open.MP e servidores hospedados personalizados.
+- **Consulta Assíncrona de Informações:** Recuperação eficiente e não bloqueante de detalhes do servidor, como nome, modo, idioma, número de jogadores, ping e status de senha.
+- **Gerenciamento de Favoritos:** Adicione, remova e persista servidores favoritos em um arquivo local `servers.ini`.
+- **Diálogo de Conexão Intuitivo:** Insira seu nickname e senha do servidor (quando necessário), com persistência automática do nickname.
+- **Configuração do Caminho do GTA San Andreas:** Selecione a pasta de instalação do GTA San Andreas ou baixe um pacote pré-configurado com GTA + SA-MP diretamente pelo Launcher.
+- **Atualizações Automáticas:** Verifica automaticamente novas versões do Launcher online e permite a aplicação de atualizações com um clique.
+- **Interface com Tema Escuro Personalizado:** Design moderno, consistente e visualmente agradável em todas as janelas do Launcher.
+- **Tratamento de Erros Robusto:** Mensagens amigáveis para problemas de conectividade, entradas inválidas ou falhas de atualização.
 
-- [Features](#features)  
-- [Requirements](#requirements)  
-- [Installation and Usage](#installation-and-usage)  
-- [Configuration](#configuration)  
-- [How to Connect to a Server](#how-to-connect-to-a-server)  
-- [Update System](#update-system)  
-- [Code Examples](#code-examples)  
-- [Third-Party Libraries and Dependencies](#third-party-libraries-and-dependencies)  
-- [Contributing](#contributing)  
-- [Support](#support)  
-- [License](#license)  
+## Requisitos
 
----
+Para executar o **Emotion Launcher**, os seguintes componentes são necessários:
 
-## Features
+- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [Visual C++ Redistributable para Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
-- **Multi-Source Server Browsing:** Browse favorite servers saved locally, internet servers via Open.MP API, and hosted custom servers.  
-- **Asynchronous Server Info Querying:** Efficient and non-blocking retrieval of server details like name, mode, language, players, ping, and password status.  
-- **Favorites Management:** Easily add, remove, and persist favorite servers in a local `servers.ini` file.  
-- **User-Centric Connection Dialog:** Enter your nickname and server password if required, with automatic nickname persistence.  
-- **GTA San Andreas Path Configuration:** Select your GTA SA installation folder or download a pre-packaged GTA + SA-MP archive from within the launcher.  
-- **Automated Update Mechanism:** Checks for newer launcher versions online and prompts the user to download and apply updates automatically.  
-- **Custom Dark-Themed UI:** Consistent, modern, and clean interface across the entire launcher and its dialogs.  
-- **Robust Error Handling:** User-friendly messages for connectivity issues, invalid inputs, and update failures.  
+> [!NOTE]
+> Esses componentes são obrigatórios para evitar erros de execução.
 
----
+## Instalação e Uso
 
-## Requirements
+1. Baixe a versão mais recente do Launcher na página de [Releases](https://github.com/xWendorion/eLauncher/releases) ou no site oficial: [https://elauncher.site](https://elauncher.site).
+2. Extraia o arquivo baixado para um diretório de sua escolha.
+3. Execute o arquivo `EmotionLauncher.exe`.
+4. Configure o caminho de instalação do GTA San Andreas clicando no botão de configurações.
+5. Navegue pelos servidores disponíveis nas abas de favoritos, servidores online ou servidores hospedados.
+6. Clique duas vezes em um servidor para conectar, inserindo seu nickname e senha, se necessário.
 
-Before running Emotion Launcher, ensure the following components are installed:
+## Configuração
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
-- [Visual C++ Redistributable for Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
+O **Emotion Launcher** utiliza dois arquivos de configuração principais, localizados no diretório do Launcher:
 
-**Note:** These components are mandatory for the launcher to function correctly and to avoid runtime errors.
+- **`config.ini`**: Armazena o caminho da instalação do GTA San Andreas.  
+   **Exemplo de conteúdo**:
+   ```ini
+   gta_path=C:\Program Files\Rockstar Games\GTA San Andreas
+   ```
+- **`servers.ini`**: Contém a lista de servidores favoritos no formato `IP:porta`.  
+   **Exemplo de conteúdo**:
+   ```ini
+   127.0.0.1:7777
+   play.example.com:7777
+   ```
 
----
+O caminho do GTA San Andreas pode ser configurado diretamente na interface do Launcher ou editando manualmente o arquivo `config.ini`.
 
-## Installation and Usage
+## Como Conectar-se a um Servidor
 
-1. Download the latest release from the [Releases](https://github.com/xWendorion/eLauncher/releases) page or from the official website: [https://elauncher.site](https://elauncher.site).  
-2. Extract the downloaded archive to a preferred directory.  
-3. Run `EmotionLauncher.exe`.  
-4. Configure your GTA San Andreas installation path by clicking the settings/configuration button.  
-5. Browse available servers in your favorites, online listings, or hosted servers tabs.  
-6. Double-click a server to connect, entering your nickname and password if required.  
+1. Selecione um servidor na lista de favoritos, servidores online ou hospedados.
+2. Clique duas vezes no servidor ou pressione o botão "Conectar".
+3. Caso o servidor exija senha, uma janela de entrada será exibida.
+4. Insira seu nickname (salvo automaticamente para sessões futuras).
+5. Clique em "Entrar" para iniciar o jogo e conectar-se usando o `samp-injector.dll`.
 
----
+## Sistema de Atualização
 
-## Configuration
-
-The launcher uses two primary configuration files located in the launcher directory:
-
-- **`config.ini`** — Stores the GTA San Andreas installation path.  
-  Example content:
-  ```ini
-  gta_path=C:\Program Files\Rockstar Games\GTA San Andreas
-```
-
-* **`servers.ini`** — Stores your list of favorite servers as IP\:port pairs.
-  Example content:
-
-  ```
-  127.0.0.1:7777
-
-  play.example.com:7777
-  ``
-
-You can set or change the GTA path inside the launcher UI or manually edit the `config.ini`.
-
----
-
-## How to Connect to a Server
-
-* Select a server from any server list (Favorites, Internet, Hosted).
-* Double-click the desired server entry or press the "Connect" button.
-* If the server requires a password, a password input will be displayed.
-* Enter your nickname (saved automatically for future sessions).
-* Click "Join" to launch the game and connect using the custom `samp-injector.dll`.
-
----
-
-## Update System
-
-The launcher periodically checks for updates using a remote JSON manifest located at:
+O Launcher verifica periodicamente por atualizações por meio de um manifesto JSON hospedado em:
 
 ```
 https://elauncher.site/api/version/version.json
 ```
 
-If a newer version is found, the launcher prompts the user to download and install the update. The update package is downloaded as a zip file and extracted after the launcher exits, replacing the older files and restarting the application automatically.
+Se uma nova versão for detectada, o Launcher exibe uma notificação para baixar e instalar a atualização. O pacote de atualização é baixado como um arquivo ZIP, extraído após o fechamento do Launcher, substituindo os arquivos antigos e reiniciando o aplicativo automaticamente.
 
----
+## Exemplos de Código
 
-## Code Examples
-
-### Server Connection Logic (simplified)
+### Lógica de Conexão a Servidores (Simplificada)
 
 ```csharp
 private async void ConnectButton_Click(object sender, EventArgs e)
@@ -154,7 +148,7 @@ private async void ConnectButton_Click(object sender, EventArgs e)
 }
 ```
 
-### Configuration Manager Example
+### Exemplo de Gerenciador de Configuração
 
 ```csharp
 public static class ConfigManager
@@ -178,7 +172,7 @@ public static class ConfigManager
 }
 ```
 
-### Update System Snippet
+### Trecho do Sistema de Atualização
 
 ```csharp
 public static async Task<bool> CheckForUpdatesAsync()
@@ -209,41 +203,42 @@ public static async Task<bool> CheckForUpdatesAsync()
     return false;
 }
 ```
----
 
-## Third-Party Libraries and Dependencies
+## Bibliotecas e Dependências de Terceiros
 
-* [samp-injector.dll](https://github.com/spc-samp/samp-injector/releases/tag/dll) by SPC/Calasans — For launching and injecting SA-MP.
-* [SAMPQuery](https://github.com/justmavi/sampquery) by justmavi — For querying server information asynchronously.
-* [Guna.UI2.WinForms](https://www.nuget.org/packages/Guna.UI2.WinForms/) — Modern UI controls used in the launcher.
+- **[samp-injector.dll](https://github.com/spc-samp/samp-injector/releases/tag/dll)**: Biblioteca da [SPC](https://github.com/spc-samp), para inicialização e injeção do SA-MP | open.mp.
+- **[SAMPQuery](https://github.com/justmavi/sampquery)**: Biblioteca de [justmavi](https://github.com/justmavi), para consulta assíncrona de informações de servidores.
+- **[Guna.UI2.WinForms](https://www.nuget.org/packages/Guna.UI2.WinForms/)**: Controles de interface modernos utilizados no Launcher.
 
----
+## Contribuição
 
-## Contributing
+Contribuições são bem-vindas! Você pode colaborar com o **Emotion Launcher** por meio de:
 
-Contributions are welcome! You can help improve **Emotion Launcher** by:
+- Relato de bugs e problemas.
+- Sugestões de novas funcionalidades ou melhorias.
+- Envio de pull requests com correções ou novos recursos.
 
-* Reporting bugs and issues.
-* Suggesting new features or enhancements.
-* Submitting pull requests with bug fixes or new functionality.
+Certifique-se de seguir o estilo de código do projeto e testar suas alterações antes de enviar um pull request. As contribuições devem ser compatíveis com o .NET 8.0.
 
-Please make sure to follow the code style and test your changes before submitting a PR. Contributions should target the latest .NET 8.0 runtime.
+## Suporte
 
----
+Em caso de dúvidas ou problemas, entre em contato por meio de:
 
-## Support
+- Abertura de uma issue no [repositório GitHub](https://github.com/xWendorion/eLauncher/issues).
+- Formulário de contato no site oficial: [https://elauncher.site](https://elauncher.site).
 
-If you encounter any issues or have questions, please:
+## Licença
 
-* Open an issue on the [GitHub repository](https://github.com/xWendorion/eLauncher/issues).
-* Contact the maintainers via the official website contact form.
+Este projeto, **Emotion Launcher**, é licenciado sob a **Licença MIT**, uma licença de software livre e permissiva amplamente utilizada. Isso significa que você tem liberdade para:
 
----
+- Usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do software;
+- Desde que o aviso de copyright e a permissão da licença sejam incluídos em todas as cópias ou partes substanciais do software.
 
-## License
+> [!IMPORTANT]
+> Este software é fornecido "no estado em que se encontra", sem qualquer tipo de garantia, expressa ou implícita, incluindo, mas não se limitando a garantias de comercialização, adequação a um propósito específico e não infração.
 
-Emotion Launcher is open source under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+Para mais detalhes legais, consulte o arquivo [LICENSE](LICENSE) incluído neste repositório.
 
----
+## Thanks!
 
-Thank you for using **Emotion Launcher**. Your support and contributions help us keep the project alive and evolving.
+Agradecemos por utilizar o **Emotion Launcher**. Seu apoio e contribuições ajudam a manter o projeto ativo e em constante evolução.
