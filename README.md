@@ -53,7 +53,7 @@ Before running Emotion Launcher, ensure the following components are installed:
 
 ## Installation and Usage
 
-1. Download the latest release from the [Releases](https://github.com/seu-usuario/eLauncher/releases) page or from the official website: [https://elauncher.site](https://elauncher.site).  
+1. Download the latest release from the [Releases](https://github.com/xWendorion/eLauncher/releases) page or from the official website: [https://elauncher.site](https://elauncher.site).  
 2. Extract the downloaded archive to a preferred directory.  
 3. Run `EmotionLauncher.exe`.  
 4. Configure your GTA San Andreas installation path by clicking the settings/configuration button.  
@@ -235,7 +235,7 @@ Please make sure to follow the code style and test your changes before submittin
 
 If you encounter any issues or have questions, please:
 
-* Open an issue on the [GitHub repository](https://github.com/seu-usuario/eLauncher/issues).
+* Open an issue on the [GitHub repository](https://github.com/xWendorion/eLauncher/issues).
 * Contact the maintainers via the official website contact form.
 
 ---
