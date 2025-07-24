@@ -1,14 +1,14 @@
 // ================================================
-// Projeto: Emotion Launcher
-// Arquivo: EELoading.cs
-// Descrição: Gerencia o processo de inicialização do Launcher.
+// Project: Emotion Launcher
+// File: EELoading.cs
+// Description: Manages the launcher's startup process.
 // 
-// Autor: xWendorion
+// Author: xWendorion
 // GitHub: https://github.com/xWendorion
-// Data de Criação: 01/07/2025
-// Última Atualização: 24/07/2025
+// Created: 07/01/2025
+// Last Updated: 07/24/2025
 // 
-// Licença: MIT
+// License: MIT
 // ================================================
 
 using System;
