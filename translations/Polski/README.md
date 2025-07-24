@@ -1,5 +1,7 @@
 # Emotion Launcher
 
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 **Emotion Launcher (eLauncher)** to nowoczesny i dedykowany launcher dla **San Andreas Multiplayer (SA-MP)** oraz **Open Multiplayer (open.mp)**. Zaprojektowany z naciskiem na stabilność, użyteczność i zaawansowane funkcje, **eLauncher** oferuje płynne doświadczenie w łączeniu się z serwerami wieloosobowymi, zarządzaniu ulubionymi, konfigurowaniu instalacji GTA San Andreas oraz automatycznym i efektywnym aktualizowaniu launchera.
 
 ## Języki
@@ -50,7 +52,7 @@
 
 Aby uruchomić **Emotion Launcher**, wymagane są następujące komponenty:
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET Desktop Runtime 8.0 (x86)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x86.exe)
 - [Visual C++ Redistributable dla Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 > [!NOTE]
@@ -58,7 +60,7 @@ Aby uruchomić **Emotion Launcher**, wymagane są następujące komponenty:
 
 ## Instalacja i użytkowanie
 
-1. Pobierz najnowszą wersję launchera ze strony [Releases](https://github.com/xWendorion/eLauncher/releases) lub oficjalnej strony: [https://elauncher.site](https://elauncher.site).
+1. Pobierz najnowszą wersję launchera ze strony [Releases](https://github.com/emotionmultiplayer/eLauncher/releases) lub oficjalnej strony: [https://elauncher.site](https://elauncher.site).
 2. Wypakuj pobrany plik do wybranego katalogu.
 3. Uruchom plik `EmotionLauncher.exe`.
 4. Skonfiguruj ścieżkę instalacji GTA San Andreas, klikając przycisk ustawień.
@@ -224,7 +226,7 @@ Upewnij się, że przestrzegasz stylu kodowania projektu i testujesz swoje zmian
 
 W przypadku pytań lub problemów skontaktuj się z nami poprzez:
 
-- Otwarcie zgłoszenia w [repozytorium GitHub](https://github.com/xWendorion/eLauncher/issues).
+- Otwarcie zgłoszenia w [repozytorium GitHub](https://github.com/emotionmultiplayer/eLauncher/issues/new).
 - Formularz kontaktowy na oficjalnej stronie: [https://elauncher.site](https://elauncher.site).
 
 ## Licencja

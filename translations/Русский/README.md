@@ -1,5 +1,7 @@
 # Emotion Launcher
 
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 **Emotion Launcher (eLauncher)** — это современный и специализированный лаунчер для **San Andreas Multiplayer (SA-MP)** и **Open Multiplayer (open.mp)**. Разработанный с акцентом на стабильность, удобство использования и расширенные функции, **eLauncher** предлагает плавный опыт подключения к многопользовательским серверам, управления избранными, настройки установки GTA San Andreas и автоматического эффективного обновления лаунчера.
 
 ## Языки
@@ -50,7 +52,7 @@
 
 Для запуска **Emotion Launcher** необходимы следующие компоненты:
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET Desktop Runtime 8.0 (x86)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x86.exe)
 - [Visual C++ Redistributable для Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 > [!NOTE]
@@ -58,7 +60,7 @@
 
 ## Установка и использование
 
-1. Загрузите последнюю версию лаунчера со страницы [Releases](https://github.com/xWendorion/eLauncher/releases) или с официального сайта: [https://elauncher.site](https://elauncher.site).
+1. Загрузите последнюю версию лаунчера со страницы [Releases](https://github.com/emotionmultiplayer/eLauncher/releases) или с официального сайта: [https://elauncher.site](https://elauncher.site).
 2. Распакуйте загруженный файл в выбранную директорию.
 3. Запустите файл `EmotionLauncher.exe`.
 4. Настройте путь установки GTA San Andreas, нажав на кнопку настроек.
@@ -224,7 +226,7 @@ public static async Task<bool> CheckForUpdatesAsync()
 
 При возникновении вопросов или проблем свяжитесь с нами через:
 
-- Открытие issue в [репозитории GitHub](https://github.com/xWendorion/eLauncher/issues).
+- Открытие issue в [репозитории GitHub](https://github.com/emotionmultiplayer/eLauncher/issues/new).
 - Форму обратной связи на официальном сайте: [https://elauncher.site](https://elauncher.site).
 
 ## Лицензия

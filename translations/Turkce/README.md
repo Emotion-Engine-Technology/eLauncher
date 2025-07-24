@@ -1,5 +1,7 @@
 # Emotion Launcher
 
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 **Emotion Launcher (eLauncher)**, **San Andreas Multiplayer (SA-MP)** ve **Open Multiplayer (open.mp)** için modern ve özel bir başlatıcıdır. Kararlılık, kullanılabilirlik ve gelişmiş özelliklere odaklanarak geliştirilen **eLauncher**, çok oyunculu sunuculara bağlanma, favorileri yönetme, GTA San Andreas kurulumunu yapılandırma ve başlatıcıyı otomatik ve verimli bir şekilde güncel tutma konusunda sorunsuz bir deneyim sunar.
 
 ## Diller
@@ -50,7 +52,7 @@
 
 **Emotion Launcher**'ı çalıştırmak için aşağıdaki bileşenler gereklidir:
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET Desktop Runtime 8.0 (x86)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x86.exe)
 - [Visual C++ Redistributable for Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 > [!NOTE]
@@ -58,7 +60,7 @@
 
 ## Kurulum ve Kullanım
 
-1. Başlatıcı'nın en son sürümünü [Releases](https://github.com/xWendorion/eLauncher/releases) sayfasından veya resmi web sitesinden indirin: [https://elauncher.site](https://elauncher.site).
+1. Başlatıcı'nın en son sürümünü [Releases](https://github.com/emotionmultiplayer/eLauncher/releases) sayfasından veya resmi web sitesinden indirin: [https://elauncher.site](https://elauncher.site).
 2. İndirilen dosyayı istediğiniz bir dizine çıkarın.
 3. `EmotionLauncher.exe` dosyasını çalıştırın.
 4. Ayarlar düğmesine tıklayarak GTA San Andreas kurulum yolunu yapılandırın.
@@ -224,7 +226,7 @@ Projenin kodlama stilini takip ettiğinizden ve pull request göndermeden önce 
 
 Sorularınız veya sorunlarınız için bizimle şu yollarla iletişime geçebilirsiniz:
 
-- [GitHub deposunda](https://github.com/xWendorion/eLauncher/issues) bir issue açma.
+- [GitHub deposunda](https://github.com/emotionmultiplayer/eLauncher/issues/new) bir issue açma.
 - Resmi web sitesindeki iletişim formu: [https://elauncher.site](https://elauncher.site).
 
 ## Lisans

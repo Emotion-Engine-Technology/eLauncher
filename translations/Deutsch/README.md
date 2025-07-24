@@ -1,5 +1,7 @@
 # Emotion Launcher
 
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 Der **Emotion Launcher (eLauncher)** ist ein moderner und dedizierter Launcher für **San Andreas Multiplayer (SA-MP)** und **Open Multiplayer (open.mp)**. Entwickelt mit Fokus auf Stabilität, Benutzerfreundlichkeit und erweiterte Funktionen, bietet der **eLauncher** ein reibungsloses Erlebnis, um sich mit Multiplayer-Servern zu verbinden, Favoriten zu verwalten, die Installation von GTA San Andreas zu konfigurieren und den Launcher automatisch und effizient zu aktualisieren.
 
 ## Sprachen
@@ -50,7 +52,7 @@ Der **Emotion Launcher (eLauncher)** ist ein moderner und dedizierter Launcher f
 
 Um den **Emotion Launcher** auszuführen, sind folgende Komponenten erforderlich:
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET Desktop Runtime 8.0 (x86)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x86.exe)
 - [Visual C++ Redistributable für Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 > [!NOTE]
@@ -58,7 +60,7 @@ Um den **Emotion Launcher** auszuführen, sind folgende Komponenten erforderlich
 
 ## Installation und Nutzung
 
-1. Laden Sie die neueste Version des Launchers von der [Releases](https://github.com/xWendorion/eLauncher/releases)-Seite oder der offiziellen Website herunter: [https://elauncher.site](https://elauncher.site).
+1. Laden Sie die neueste Version des Launchers von der [Releases](https://github.com/emotionmultiplayer/eLauncher/releases)-Seite oder der offiziellen Website herunter: [https://elauncher.site](https://elauncher.site).
 2. Entpacken Sie die heruntergeladene Datei in ein Verzeichnis Ihrer Wahl.
 3. Führen Sie die Datei `EmotionLauncher.exe` aus.
 4. Konfigurieren Sie den Installationspfad von GTA San Andreas über die Schaltfläche für Einstellungen.
@@ -224,7 +226,7 @@ Achten Sie darauf, den Kodierungsstil des Projekts zu befolgen und Ihre Änderun
 
 Bei Fragen oder Problemen kontaktieren Sie uns über:
 
-- Eröffnen Sie eine Issue im [GitHub-Repository](https://github.com/xWendorion/eLauncher/issues).
+- Eröffnen Sie eine Issue im [GitHub-Repository](https://github.com/emotionmultiplayer/eLauncher/issues/new).
 - Kontaktformular auf der offiziellen Website: [https://elauncher.site](https://elauncher.site).
 
 ## Lizenz

@@ -1,7 +1,9 @@
 
 
 # Emotion Launcher
+
 ![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 O **Emotion Launcher (eLauncher)** é um Launcher moderno e dedicado para **San Andreas Multiplayer (SA-MP)** e **Open Multiplayer (open.mp)**. Desenvolvido com foco em estabilidade, usabilidade e funcionalidades avançadas, o **eLauncher** oferece uma experiência fluida para conectar-se a servidores multiplayer, gerenciar favoritos, configurar a instalação do GTA San Andreas e manter o Launcher atualizado de forma automática e eficiente.
 
 ## Idiomas
@@ -60,7 +62,7 @@ Para executar o **Emotion Launcher**, os seguintes componentes são necessários
 
 ## Instalação e Uso
 
-1. Baixe a versão mais recente do Launcher na página de [Releases](https://github.com/xWendorion/eLauncher/releases) ou no site oficial: [https://elauncher.site](https://elauncher.site).
+1. Baixe a versão mais recente do Launcher na página de [Releases](https://github.com/emotionmultiplayer/eLauncher/releases) ou no site oficial: [https://elauncher.site](https://elauncher.site).
 2. Extraia o arquivo baixado para um diretório de sua escolha.
 3. Execute o arquivo `EmotionLauncher.exe`.
 4. Configure o caminho de instalação do GTA San Andreas clicando no botão de configurações.
@@ -226,7 +228,7 @@ Certifique-se de seguir o estilo de código do projeto e testar suas alteraçõe
 
 Em caso de dúvidas ou problemas, entre em contato por meio de:
 
-- Abertura de uma issue no [repositório GitHub](https://github.com/xWendorion/eLauncher/issues).
+- Abertura de uma issue no [repositório GitHub](https://github.com/emotionmultiplayer/eLauncher/issues/new).
 - Formulário de contato no site oficial: [https://elauncher.site](https://elauncher.site).
 
 ## Licença

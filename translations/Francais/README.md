@@ -1,5 +1,7 @@
 # Emotion Launcher
 
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 L'**Emotion Launcher (eLauncher)** est un lanceur moderne et dédié pour **San Andreas Multiplayer (SA-MP)** et **Open Multiplayer (open.mp)**. Développé avec un accent sur la stabilité, la convivialité et les fonctionnalités avancées, l'**eLauncher** offre une expérience fluide pour se connecter aux serveurs multijoueurs, gérer les favoris, configurer l'installation de GTA San Andreas et maintenir le lanceur à jour de manière automatique et efficace.
 
 ## Langues
@@ -50,7 +52,7 @@ L'**Emotion Launcher (eLauncher)** est un lanceur moderne et dédié pour **San 
 
 Pour exécuter l'**Emotion Launcher**, les composants suivants sont requis:
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET Desktop Runtime 8.0 (x86)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x86.exe)
 - [Visual C++ Redistributable pour Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 > [!NOTE]
@@ -58,7 +60,7 @@ Pour exécuter l'**Emotion Launcher**, les composants suivants sont requis:
 
 ## Installation et utilisation
 
-1. Téléchargez la dernière version du lanceur depuis la page [Releases](https://github.com/xWendorion/eLauncher/releases) ou le site officiel: [https://elauncher.site](https://elauncher.site).
+1. Téléchargez la dernière version du lanceur depuis la page [Releases](https://github.com/emotionmultiplayer/eLauncher/releases) ou le site officiel: [https://elauncher.site](https://elauncher.site).
 2. Extrayez le fichier téléchargé dans un répertoire de votre choix.
 3. Exécutez le fichier `EmotionLauncher.exe`.
 4. Configurez le chemin d'installation de GTA San Andreas en cliquant sur le bouton des paramètres.
@@ -224,7 +226,7 @@ Assurez-vous de suivre le style de codage du projet et de tester vos modificatio
 
 Pour toute question ou problème, contactez-nous via:
 
-- Ouvrir une issue dans le [dépôt GitHub](https://github.com/xWendorion/eLauncher/issues).
+- Ouvrir une issue dans le [dépôt GitHub](https://github.com/emotionmultiplayer/eLauncher/issues/new).
 - Formulaire de contact sur le site officiel: [https://elauncher.site](https://elauncher.site).
 
 ## Licence

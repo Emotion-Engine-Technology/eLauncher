@@ -1,5 +1,7 @@
 # Emotion Launcher
 
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
+
 **Emotion Launcher (eLauncher)** är en modern och dedikerad launcher för **San Andreas Multiplayer (SA-MP)** och **Open Multiplayer (open.mp)**. Utvecklad med fokus på stabilitet, användarvänlighet och avancerade funktioner, erbjuder **eLauncher** en smidig upplevelse för att ansluta till multiplayer-servrar, hantera favoriter, konfigurera installationen av GTA San Andreas och hålla launchern uppdaterad automatiskt och effektivt.
 
 ## Språk
@@ -50,7 +52,7 @@
 
 För att köra **Emotion Launcher** krävs följande komponenter:
 
-- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET Desktop Runtime 8.0 (x86)](https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/8.0.18/windowsdesktop-runtime-8.0.18-win-x86.exe)
 - [Visual C++ Redistributable för Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 > [!NOTE]
@@ -58,7 +60,7 @@ För att köra **Emotion Launcher** krävs följande komponenter:
 
 ## Installation och användning
 
-1. Ladda ner den senaste versionen av launchern från [Releases](https://github.com/xWendorion/eLauncher/releases)-sidan eller den officiella webbplatsen: [https://elauncher.site](https://elauncher.site).
+1. Ladda ner den senaste versionen av launchern från [Releases](https://github.com/emotionmultiplayer/eLauncher/releases)-sidan eller den officiella webbplatsen: [https://elauncher.site](https://elauncher.site).
 2. Extrahera den nedladdade filen till en katalog efter eget val.
 3. Kör filen `EmotionLauncher.exe`.
 4. Konfigurera installationssökvägen för GTA San Andreas genom att klicka på inställningsknappen.
@@ -224,7 +226,7 @@ Se till att följa projektets kodstil och testa dina ändringar innan du skickar
 
 Vid frågor eller problem, kontakta oss via:
 
-- Öppna en issue i [GitHub-repositoriet](https://github.com/xWendorion/eLauncher/issues).
+- Öppna en issue i [GitHub-repositoriet](https://github.com/emotionmultiplayer/eLauncher/issues/new).
 - Kontaktformulär på den officiella webbplatsen: [https://elauncher.site](https://elauncher.site).
 
 ## Licens
