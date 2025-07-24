@@ -1,15 +1,16 @@
 // ================================================
-// Projeto: Emotion Launcher
-// Arquivo: EEL.cs
-// Descrição: Codigo do formulario principal, com todas as funções principais.
+// Project: Emotion Launcher
+// File: EEL.cs
+// Description: Main form code, containing all core functionalities.
 // 
-// Autor: xWendorion
+// Author: xWendorion
 // GitHub: https://github.com/xWendorion
-// Data de Criação: 01/07/2025
-// Última Atualização: 24/07/2025
+// Created: 07/01/2025
+// Last Updated: 07/24/2025
 // 
-// Licença: MIT
+// License: MIT
 // ================================================
+
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
