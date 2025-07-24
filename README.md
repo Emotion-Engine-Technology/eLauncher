@@ -1,5 +1,7 @@
-# Emotion Launcher
 
+
+# Emotion Launcher
+![preview](https://cdn.discordapp.com/attachments/1117589516488822906/1397781579614392381/image.png?ex=6883a1ca&is=6882504a&hm=56da228f2c15718634facf0117f20a04860a0fda2f3eb2601768895e9fa370f4)
 O **Emotion Launcher (eLauncher)** é um Launcher moderno e dedicado para **San Andreas Multiplayer (SA-MP)** e **Open Multiplayer (open.mp)**. Desenvolvido com foco em estabilidade, usabilidade e funcionalidades avançadas, o **eLauncher** oferece uma experiência fluida para conectar-se a servidores multiplayer, gerenciar favoritos, configurar a instalação do GTA San Andreas e manter o Launcher atualizado de forma automática e eficiente.
 
 ## Idiomas
