@@ -213,7 +213,7 @@ public static async Task<bool> CheckForUpdatesAsync()
 
 ## Third-Party Libraries and Dependencies
 
-* [samp-injector.dll](https://github.com/spc-samp/samp-injector) by SPC/Calasans — For launching and injecting SA-MP.
+* [samp-injector.dll](https://github.com/spc-samp/samp-injector/releases/tag/dll) by SPC/Calasans — For launching and injecting SA-MP.
 * [SAMPQuery](https://github.com/justmavi/sampquery) by justmavi — For querying server information asynchronously.
 * [Guna.UI2.WinForms](https://www.nuget.org/packages/Guna.UI2.WinForms/) — Modern UI controls used in the launcher.
 
@@ -247,4 +247,3 @@ Emotion Launcher is open source under the **MIT License**. See the [LICENSE](LIC
 ---
 
 Thank you for using **Emotion Launcher**. Your support and contributions help us keep the project alive and evolving.
-
