@@ -210,19 +210,6 @@ public static async Task<bool> CheckForUpdatesAsync()
 ```
 ---
 
-## Requirements
-
-To run **eLauncher** properly, you must have the following installed:
-
-- [.NET 8.0 Runtime (x86)](https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/runtime-desktop-8.0.18-windows-x86-installer?cid=getdotnetcore)
-- [Visual C++ Redistributable 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-
-> **These components are required.**  
-> Make sure to install both before running the launcher to avoid errors.
-
----
----
-
 ## Third-Party Libraries and Dependencies
 
 * [samp-injector.dll](https://github.com/spc-samp/samp-injector) by SPC/Calasans — For launching and injecting SA-MP.
