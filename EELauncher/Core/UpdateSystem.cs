@@ -1,3 +1,15 @@
+// ================================================
+// Project: Emotion Launcher
+// File: EELoading.cs
+// Description: System responsible for checking and updating the launcher when a newer version file is available.
+// 
+// Author: xWendorion
+// GitHub: https://github.com/xWendorion
+// Created: 07/01/2025
+// Last Updated: 07/24/2025
+// 
+// License: MIT
+// ================================================
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
