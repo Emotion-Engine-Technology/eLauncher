@@ -1,3 +1,16 @@
+// ================================================
+// Projeto: Emotion Launcher
+// Arquivo: Launcher.cs
+// Descrição: Gerencia o processo de inicialização do SA-MP e OpenMP.
+// 
+// Autor: Wenderson Rafael
+// GitHub: https://github.com/wenderson-rafael
+// Data de Criação: 24/07/2025
+// Última Atualização: 24/07/2025
+// 
+// Licença: MIT
+// ================================================
+
 using System;
 using System.Drawing;
 using System.Runtime.InteropServices;
@@ -25,7 +38,7 @@ namespace EELauncher
             InitializeComponent();
 
             // Aplica bordas arredondadas no Form
-            this.FormBorderStyle = FormBorderStyle.None; // remove bordas padr�o
+            this.FormBorderStyle = FormBorderStyle.None; // remove bordas padrão
             this.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 30, 30)); // bordas arredondadas
 
             // Inicializa o Timer (usando o namespace completo)
@@ -57,7 +70,7 @@ namespace EELauncher
             else
             {
                 timer.Stop();
-                // Abre o pr�ximo formul�rio
+                // Abre o próximo formulário
                 Form outroFormulario = new EEL(); // Substitua com o nome do seu form
                 outroFormulario.Show();
 
