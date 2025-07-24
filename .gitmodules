@@ -1,3 +1,6 @@
 [submodule "libraries/samp-injector"]
 	path = libraries/samp-injector
 	url = https://github.com/spc-samp/samp-injector
+[submodule "libraries/sampquery"]
+	path = libraries/sampquery
+	url = https://github.com/justmavi/sampquery
