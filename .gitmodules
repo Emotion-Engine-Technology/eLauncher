@@ -1,0 +1,3 @@
+[submodule "libraries/samp-injector"]
+	path = libraries/samp-injector
+	url = https://github.com/spc-samp/samp-injector
