@@ -1,11 +1,11 @@
 // ================================================
 // Projeto: Emotion Launcher
-// Arquivo: Launcher.cs
-// Descrição: Gerencia o processo de inicialização do SA-MP e OpenMP.
+// Arquivo: EELoading.cs
+// Descrição: Gerencia o processo de inicialização do Launcher.
 // 
-// Autor: Wenderson Rafael
-// GitHub: https://github.com/wenderson-rafael
-// Data de Criação: 24/07/2025
+// Autor: xWendorion
+// GitHub: https://github.com/xWendorion
+// Data de Criação: 01/07/2025
 // Última Atualização: 24/07/2025
 // 
 // Licença: MIT
