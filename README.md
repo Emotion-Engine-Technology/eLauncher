@@ -44,7 +44,7 @@ This repository contains the source code, binaries, and all resources related to
 
 Before running Emotion Launcher, ensure the following components are installed:
 
-- [.NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
+- [.NET Desktop Runtime 8.0 (x86)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)  
 - [Visual C++ Redistributable for Visual Studio 2015–2022 (x86)](https://aka.ms/vs/17/release/vc_redist.x86.exe)  
 
 **Note:** These components are mandatory for the launcher to function correctly and to avoid runtime errors.
@@ -77,6 +77,7 @@ The launcher uses two primary configuration files located in the launcher direct
 
   ```
   127.0.0.1:7777
+
   play.example.com:7777
   ``
 
