@@ -1,3 +1,16 @@
+// ================================================
+// Project: Emotion Launcher
+// File: EELoading.cs
+// Description: Responsible for the injection and startup process of SA-MP or OMP.
+// 
+// Author: xWendorion
+// GitHub: https://github.com/xWendorion
+// Created: 07/01/2025
+// Last Updated: 07/24/2025
+// 
+// License: MIT
+// ================================================
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
