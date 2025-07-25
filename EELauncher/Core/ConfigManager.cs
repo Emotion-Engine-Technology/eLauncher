@@ -1,6 +1,6 @@
 // ================================================
 // Project: Emotion Launcher
-// File: EELoading.cs
+// File: ConfigManager.cs
 // Description: Responsible for configuring the GTA San Andreas directory.
 // 
 // Author: xWendorion
