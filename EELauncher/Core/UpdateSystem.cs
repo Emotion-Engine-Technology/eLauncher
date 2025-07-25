@@ -1,6 +1,6 @@
 // ================================================
 // Project: Emotion Launcher
-// File: EELoading.cs
+// File: UpdateSystem.cs
 // Description: System responsible for checking and updating the launcher when a newer version file is available.
 // 
 // Author: xWendorion
