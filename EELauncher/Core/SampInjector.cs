@@ -1,6 +1,6 @@
 // ================================================
 // Project: Emotion Launcher
-// File: EELoading.cs
+// File: SampInjector.cs
 // Description: Responsible for the injection and startup process of SA-MP or OMP.
 // 
 // Author: xWendorion
